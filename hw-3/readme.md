@@ -1,6 +1,21 @@
 # Empty p5 sketch.
 
 Talia Culbertson
+//Refactored HW3 readme
+1. I created a function that would put the text "Hello World!" at random
+positions all over the screen. But also making sure that the text did not go
+off the screen.
+2. I reviewed the Array material to better understand how it worked. And how I
+could use it with my function. I reviewed random, so that I would have them
+right syntax.
+3.  I had a few problems with my Array and making the text show up in a position
+that would be seen. The Hello World took up alot of the screen. But otherwise
+I didn't really have any problems.
+4. Not really.
+5. No.
+
+
+//Old Hw3 readme
 
 ["Hello World!" Sketch](https://tculbertson21.github.io/120-work/hw-3/)
 

@@ -1,13 +1,24 @@
+// Create Array with needed strings.
+let stringArray = ['Ha', 'Ho', 'Hi']
 //Declare the setup function
 function setup(){
-  //Create a Canvas 600px wide and 400px high
-  createCanvas(600, 400);
-  //color the background 'pink'
+  //Create a Canvas window width wide and window height high.
+  //Set background color to red.
+  createCanvas(windowWidth, windowHeight);
   background('red');
+
+
 }
 // Declare the draw function
 function draw(){
-  // Tell p5 to print the text string "Hello World!"
-  // This is going to be positioned at X: 20, y:30
-  text("Hello World!", 20, 30);
+  // use function to print text all over screen. Along with greeting.
+  screentext();
+
+}
+// function to make the words Hello World appear in random positions all over the window.
+function screentext(){
+  text("greeting:" + stringArray, 20, 80);
+  text("Hello World!", random(windowWidth), random(windowHeight));
+  textSize(34);
+
 }
